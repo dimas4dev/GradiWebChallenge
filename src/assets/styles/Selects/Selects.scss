@@ -1,0 +1,29 @@
+@import "../Var.scss";
+.Select {
+  width: 90%;
+  margin: 10px;
+  .Titles {
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+  .subtitles {
+    font-weight: 700;
+  }
+  .text {
+    color: $SubtitleColor;
+  }
+  .Borded--Containers {
+    border: 1px solid $GeneralBorder;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .Borded--Containers:hover {
+    border: 1px solid $Borderhover;
+  }
+  .Border--Inferior {
+    border-bottom: 1px solid $GeneralBorder;
+    // margin: 10px;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,13 @@
+@import "../Var.scss";
+.HeaderContainer {
+  width: 90%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid $GeneralBorder;
+  margin: 20px;
+  .SerempreIcon {
+    width: 58px;
+    height: 58px;
+  }
+}
