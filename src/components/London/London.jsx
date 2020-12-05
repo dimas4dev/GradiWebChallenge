@@ -18,7 +18,7 @@ const London = () => {
     true
   );
   xhr.send();
-  console.log(xhr);
+
   xhr.onreadystatechange = () => {
     if (xhr.readyState == 4 && xhr.status == 200) {
       //   console.log(xhr.responseText);

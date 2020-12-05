@@ -24,13 +24,13 @@ const Bogota = () => {
       //   console.log(xhr.responseText);
       //   console.log(xhr.response);
       const Jasonsito = JSON.parse(xhr.responseText);
-
+      console.log();
       setweather({
         temp: Jasonsito.list[0].main.temp,
         weatherStatus: Jasonsito.list[0].weather[0].main,
         weatherStatusDay1: Jasonsito.list[1].main.temp,
-        weatherStatusDay2: Jasonsito.list[2].main.temp,
-        weatherStatusDay3: Jasonsito.list[3].main.temp,
+        // weatherStatusDay2: Jasonsito.list[2].main.temp,
+        // weatherStatusDay3: Jasonsito.list[3].main.temp,
       });
     }
   };
@@ -72,11 +72,11 @@ const Bogota = () => {
           ºC
         </p>
         <p>
-          Day 2: {weather.weatherStatusDay2 > 0 ? weather.weatherStatusDay2 : 0}
+          Day 2: {0}
           ºC
         </p>
         <p>
-          Day 3:{weather.weatherStatusDay3 > 0 ? weather.weatherStatusDay2 : 0}
+          Day 3:{0}
           ºC
         </p>
       </div>
