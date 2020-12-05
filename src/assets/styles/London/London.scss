@@ -1,0 +1,44 @@
+.container {
+  display: grid;
+  gap: 1rem;
+  box-shadow: 10px 25px 30px -7px rgba(10, 10, 10, 0.71);
+  width: 500px;
+  border-radius: 10px;
+  margin: 40px 0;
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 700;
+  }
+  &__principal {
+    width: 90%;
+    justify-content: center;
+    .image__principal {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      img {
+        width: 50px;
+        height: 50px;
+      }
+      p {
+        font-size: 4rem;
+      }
+    }
+  }
+  &__secondary {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  &__forecast {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+}

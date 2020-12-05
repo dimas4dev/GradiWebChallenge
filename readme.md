@@ -1,1 +1,13 @@
-Mi solucion al reto que me presentaron esta un tanto incompleta debido al tiempo que le dedique a esta, aproximadamente fueron alrededor de unas 5 Horas.Este fue el primer reto al que me enfrente, poder presentar algo en el tiempo que disponia. Otro reto al que me enfrente fueron los tabs de react los cuales no los conocia y me llego a impactar bastante debido a que me toco invetigar bastante sobre estos. Otro reto al que me enfrente fue la responsividad del proyecto, la mejor version esta en mobile de 320 px y la gran diferencia esta desde los 1280 px. Tambien otro gran reto que enfrente fue el siguiente, poder seleccioanr las imagenes correctas para poder acoplarlas al diseñ, debido a que en la carpeta este tenia un gran contenido esto consumio bastante tiempo.
+Mi solucion al reto fue crear una pantalla basica donde se pudiera reflejar la informacion del estado de las peticiones que yo solicitaba a la respectiva API.
+
+Dificultades que presente al solucionar el proyecto:
+
+Nunca habia hecho una peticion que no fuera por Fetch o Axios entonces me toco documentarme sobre como hacerlo sin estas herramientas.
+
+La API al tener una version de limite por paga me bloqueo al realizar muchas peticiones. Por lo cual me toco setearle unos valores por defecto para que esta no se viera vacia.
+
+Tambien al aspirar a un cargo de frontend developer presente la dificultad de ser creativo a la hora de montar un diseño que fuera creativo y no fuera tan simple.
+
+Especificaciones Tecnicas del proyecto
+
+Realice el proyecto en React, Configurandolo desde 0 debido a que esto me facilita mas el aprendizaje sobre la crecion de un proyecto en webpack.

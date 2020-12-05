@@ -1,13 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-$GeneralBorder: #eeeff2;
-$FontFamily: "Roboto", sans-serif;
-$RedColor: #cb253c;
-$SubtitleColor: #6b7280;
-$Borderhover: #b6bcc6;
-$BorderSelected: #1e96d4;
-$FooterColor: #d2d2d7;
-$ButtonColor: #1e96d4;
-
+$font-Family: "Roboto", sans-serif;
 body {
-  font-family: $FontFamily;
+  margin: 0;
+  padding: 0;
+  font-family: $font-Family;
+  display: flex;
+  justify-content: center;
 }
