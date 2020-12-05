@@ -12,8 +12,8 @@ const London = () => {
 
   xhr.open(
     "GET",
-    // "https://api.openweathermap.org/data/2.5/find?q=London&units=metric&appid=399cee046a954376a1274420f7d16366",
-    "https://api.openweathermap.org/data/2.5/find?q=London&units=metric&appid=97372d7201bc3143f6bbb7fe6ec8e2ef",
+    "https://api.openweathermap.org/data/2.5/find?q=London&units=metric&appid=399cee046a954376a1274420f7d16366",
+    // "https://api.openweathermap.org/data/2.5/find?q=London&units=metric&appid=97372d7201bc3143f6bbb7fe6ec8e2ef",
 
     true
   );
