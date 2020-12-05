@@ -11,3 +11,5 @@ Tambien al aspirar a un cargo de frontend developer presente la dificultad de se
 Especificaciones Tecnicas del proyecto
 
 Realice el proyecto en React, Configurandolo desde 0 debido a que esto me facilita mas el aprendizaje sobre la crecion de un proyecto en webpack.
+
+En el modulo de Bogota La api no me traia informacion mas que de 1 dia en adelante por lo cual las otras variables se setearon en 0
